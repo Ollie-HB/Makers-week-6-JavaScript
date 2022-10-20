@@ -16,7 +16,6 @@ class Candy {
 class ShoppingBasket {
   constructor() {
     this.candies = [];
-    this.total = 0
   }
 
   addItem(candy) {
@@ -24,9 +23,9 @@ class ShoppingBasket {
   }
 
   getTotalPrice() {
-    this.total = 0
-    this.candies.forEach(i => this.total += i.getPrice());
-    return this.total
+    let total = 0
+    this.candies.forEach(i => total += i.getPrice());
+    return total
   }
 }
 
