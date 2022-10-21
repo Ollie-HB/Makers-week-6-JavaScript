@@ -1,6 +1,6 @@
 const ShoppingBasket = require("./shoppingBasket");
 
-describe('ShoppingBasket', () =>{
+describe('ShoppingBasket', () => {
   it('returns 0 as total price when basket is empty', () => {
     let basket = new ShoppingBasket();
     expect(basket.getTotalPrice()).toBe(0);
