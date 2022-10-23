@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Ollie-HB/Makers-week-6-JavaScript#readme",
   "dependencies": {
+    "got": "^11.8.5",
     "jest": "^29.2.1"
   }
 }
